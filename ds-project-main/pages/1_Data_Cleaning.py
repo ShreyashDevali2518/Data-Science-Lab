@@ -4,7 +4,7 @@ import pandas as pd
 st.title("🧹 Data Cleaning")
 
 try:
-    df = pd.read_csv("healthcare_dataset_cleaned.csv")
+    df = pd.read_csv("healthcare_dataset.csv")
     st.success("✅ Data loaded successfully!")
     
     st.subheader("📄 Dataset Preview")
